@@ -1,7 +1,9 @@
+import React from "react"
+import Testimonials from "./Components/Testimonials";
 const App=()=>{
     return(
         <>
-        <h1>Ready for project start</h1>
+        <Testimonials/>
         </>
     )
 }
