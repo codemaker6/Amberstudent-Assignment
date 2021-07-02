@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.section {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  height: auto;
+}
+.section-block {
+  background-color: #dff5fa;
+  padding-top: 3.3%;
+  padding-bottom: 3.3%;
+  padding-left: 7%;
+  height: 100%;
+}
+.data-block {
+  background: white;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 14em;
+  border-bottom-left-radius: 14em;
+  padding-top: 4.5%;
+  padding-left: 11%;
+  padding-bottom: 5%;
+  padding-right: 3%;
+}
+.para1 {
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.para2 {
+  color: blue;
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding-left: 80%;
+}
+.heading {
+  padding-top: 1%;
+  font-size: 2rem;
+  color: rgb(63, 62, 62);
+}
+.paragraph-text {
+  padding-top: 1%;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: rgb(92, 90, 90);
+}
+.author-name {
+  font-weight: bolder;
+  padding-top: 2%;
+  font-size: 0.9rem;
+}
+.designation {
+  font-weight: lighter;
+  margin-left: 4px;
+}
+.image {
+  display: flex;
+  padding-top: 10%;
+  padding-left: 20px;
+}
+img {
+  width: 7%;
+  height: 7%;
+  border-radius: 50%;
+  margin-left: 25px;
+}
+.button {
+  border-radius: 50%;
+  border: none;
+  background: #dff5fa;
+  margin-top: 4%;
+  padding: 15px;
+  margin-left: 50px;
+}
+.myimg:hover {
+  border: 2px solid blue;
+  padding: 3px;
+}
+.myimg1:hover {
+  border: 2px solid blue;
+  padding: 3px;
+}
+
+@media screen and (min-device-width: 300px) and (max-device-width: 768px) {
+  .section {
+    padding-top: 2% !important;
+    padding-bottom: 1.5% !important;
+    height: 100% !important;
+  }
+  .section-block {
+    background-color: #dff5fa;
+    padding-top: 2% !important;
+    padding-bottom: 3.3%;
+    padding-left: 1% !important;
+    height: 100%;
+  }
+  .data-block {
+    background: white;
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    padding-top: 3% !important ;
+    padding-left: 5% !important;
+    padding-bottom: 5%;
+    padding-right: 1% !important;
+  }
+  .para1 {
+    font-weight: bold;
+    font-size: 1rem !important;
+  }
+  .para2 {
+    color: blue;
+    font-size: 1rem !important;
+    font-weight: 600;
+    padding-left: 53% !important;
+    padding-top: 3% !important;
+  }
+  .heading {
+    padding-top: 3% !important;
+    font-size: 1.4rem !important;
+    color: rgb(63, 62, 62);
+  }
+
+  .paragraph-text {
+    padding-top: 2% !important;
+    font-size: 1.3rem !important;
+    font-weight: lighter;
+    color: rgb(92, 90, 90);
+  }
+  .author-name {
+    font-weight: bolder;
+    padding-top: 6% !important;
+    font-size: 1.3rem;
+  }
+  .designation {
+    font-weight: lighter;
+    margin-left: 5px !important;
+  }
+  .image {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    padding-top: 10px !important;
+  }
+  img {
+    width: 50% !important;
+    height: 50% !important;
+    border-radius: 50%;
+    margin-top: 4% !important;
+    margin-left: 20% !important;
+  }
+  .button {
+    border-radius: 50%;
+    border: none;
+    background: #dff5fa;
+    margin-top: 6% !important;
+    padding: 15px;
+    margin-left: 65px !important;
+  }
+}
